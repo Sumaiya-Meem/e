@@ -1,0 +1,243 @@
+
+*{
+    margin:0;
+    padding: 0;
+    list-style: none;
+    
+}
+body{
+    background-image: url(image/mainbg.jpg);
+    background-color: #fff;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-size: 16px;
+    z-index: -100000000;
+}
+.wrapper{width: 1200px;height: 100vh;
+margin: 0 auto;z-index:1;}
+.head{
+        display: flex;
+        justify-content: space-between;
+        height: 80px;
+        margin-top: 10px;
+
+    }
+.fblogo {
+    background: #1abc9c;
+    width: 150px;
+    font-size: 3.3rem;
+    margin-right: 2px;
+    text-align: center;
+    padding: 10px;
+   
+  }
+  .fblogo i{
+    width: 100px;
+  }
+.fblogo a{
+    background:#341f97;
+        color: #fff;
+        padding: 5px 20px;
+        border-radius: 5%;
+ }
+.title {
+    background: #1abc9c;
+    color: white;
+    width: 1150px;
+    margin-right: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.date-search{
+    background: #1abc9c;
+    width: 350px;
+
+}
+.date-search p{
+    color:#fff;
+   padding: 5px;
+   font-size: 1.3rem;
+   margin-left: 10px ;
+}
+.date-search input{
+   padding: 5px;
+   margin-left: 10px ;
+}
+/*menubar*/
+
+.menubar{
+background: #5f27cd;
+ display: grid;
+ margin-top: 2px;
+ grid-gap: 10px;
+ padding: 0;
+ list-style: none;
+ grid-template-columns: repeat(6,1fr);
+}
+.menubar a{
+    display: block;
+ text-align: center;
+ color: #fff;
+ font-size: 1.2rem;
+ border-right: 2px solid white;
+}
+
+.main-title{
+    color:#000;
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-align: center;
+}
+.img{
+    display: grid;
+    place-items: center;
+}
+.main-content{display: flex;
+    place-items: center;
+    height: 100px;
+    margin:15px 0;
+}
+.main-container,main-img{
+        width: 100%;
+    }
+
+/*form design start*/
+#Registration-form #regiform-main, #login-form .loginform-main {
+    border: 1px solid #d4d4d4;
+    box-shadow: 5px 5px 3px gray,-5px 5px 3px gray;
+    width:500px;
+    height: 350px;
+    margin: 30px auto;
+} 
+
+#Registration-form form ,#login-form form{
+    text-align: center;
+    font-size: 1.3rem;
+    
+}
+ 
+#Registration-form h2,#login-form h2{
+        text-align: center;
+        margin: 25px 0px;
+        font-size: 2rem;
+        font-weight: bold;
+}
+#login-form #fname{width: 45%;padding: 12px 5px;}
+#login-form #pass{width: 45%;padding: 12px 3px;margin-left: 80px;}
+#Registration-form {width:100%;}
+#reg-form {margin: 0 auto;}
+#Registration-form #reg-form td{
+    border:0px solid #fff;
+    width:100px;
+    height: 40px;
+    font-size: 1.2rem;
+}
+#Registration-form #reg-form  input{
+    padding: 7px 20px;
+}
+
+/*image design start*/
+#image-gallery{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    border: 2px solid rgb(212, 195, 195);
+    margin-top: 20px;
+}
+#image-gallery .box{
+    border: 5px solid rgb(241, 232, 232);
+
+}
+#image-gallery img{
+    height: 200px;
+    width: 100%;
+}
+.table-form{
+    width: 100%;
+    margin:0 auto;
+}
+
+.table-form h2{
+    margin: 10px 0px;
+    text-align: center;
+    font-size: 1.4rem;
+}
+
+ .main-table{
+    margin: 0px auto;
+}
+
+.main-table table tr td{
+    width: 381px;
+    height: 40px;
+    border-left: 1px;
+    border-style: solid;
+    border-color:  white;
+    padding: 15px;
+    border: 2px solid black;
+}
+
+
+.main-table .first-tr {
+    background-color:#10ac84;
+    text-align: center;
+    height: auto;
+
+}
+
+#cell23{
+    background-color: tomato;
+    text-align: center;
+}
+.diff-rc{
+    text-align: center;
+    background-color:#1abc9c ;
+}
+
+/*newsportal start*/
+
+.news h5 {
+    font-size: 1.2rem;
+   text-align: right;
+   margin: 10px 50px 10px 0px;
+}
+.news-main tr td img {
+    width: 250px;
+    height: 100px;
+    padding: 10px;
+}
+.news-main  td {
+    border: 2px solid rgb(161, 98, 98);
+}
+/*...contact form*/
+.contact-container {
+    display: flex;
+    margin-top: 20px;
+}
+.contact-box1{flex: 80%;}
+.contact-shadow{width:400px; height: auto; margin-left:30px;
+    border: 1px solid #d4d4d4;
+    box-shadow: 2px 3px 3px gray;}
+.contact-box1 label{margin-left:20px;font-size: 1.7rem;}
+.contact-box1  input[type="text"],.contact-box1 input[type="email"]{
+  width: 60%;
+  padding: 10px;
+  margin-left:20px;}
+.contact-box2{flex: 20%;}
+.contact-box2 p,address{ margin-bottom: 5px;font-size: 1.3rem;}
+
+/*form button,contact button */
+/*form button,contact button */
+.btn{
+background:#9c7cdd ;
+color:#fff;
+font-size: 1.5rem;
+font-weight: bold;
+padding: 10px 12px;
+margin: 10px 0px 0px 5px;
+border-radius: 5px;
+border:0px solid #fff;
+}
